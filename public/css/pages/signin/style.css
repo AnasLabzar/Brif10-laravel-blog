@@ -1,0 +1,277 @@
+body {
+  font: 100% "Roboto", sans-serif;
+  background-image: url("http://localhost/TellMeMVC/img/background.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .container .row .pre img {
+  width: 30%;
+  float: right;
+  position: relative;
+  top: 60%;
+  right: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+body .container .row .pre p {
+  font-size: 20px;
+  color: white;
+  float: right;
+  position: relative;
+  top: 67%;
+  right: 10%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+body .container .row .deu .formlogin {
+  width: 510px;
+  height: 730px;
+  background: white;
+  float: right;
+  border-radius: 8px;
+  position: relative;
+  top: 60%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+body .container .row .deu .formlogin .container .row form {
+  padding: 40px;
+}
+
+body .container .row .deu .formlogin .container .row form h1 {
+  font-size: 35px;
+}
+
+body .container .row .deu .formlogin .container .row form p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+body .container .row .deu .formlogin .container .row form p a span {
+  color: #6EABEF;
+}
+
+.wrapper {
+  margin-top: 40px;
+}
+
+.wrapper .input-data {
+  height: 40px;
+  width: 100%;
+  border: none;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.wrapper .input-data input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid silver;
+  margin-bottom: 20px;
+}
+
+.wrapper .input-data label {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  opacity: 90%;
+  color: grey;
+  margin-bottom: 20px;
+  pointer-events: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.wrapper .input-data input:focus {
+  outline: none;
+}
+
+.wrapper .input-data .info h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#inu {
+  border: none;
+}
+
+.input-data input:focus ~ label {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  font-size: 15px;
+}
+
+.input-data input:focus ~ input {
+  border: 1px solid red;
+}
+
+.input-data input:focus ~ .underline:before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.input-data input:valid ~ label {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  font-size: 15px;
+}
+
+.input-data input:valid ~ input {
+  border: 1px solid red;
+}
+
+.input-data input:valid ~ .underline:before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.input-data .underline {
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  bottom: 0;
+}
+
+.input-data .underline:before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #6EABEF;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+button {
+  border: none;
+  width: 86px;
+  zoom: 120%;
+  height: 34px;
+  border-radius: 17px;
+  background-color: #6D95E6;
+  color: white;
+  float: right;
+  font-size: 14px;
+}
+
+.underline1 {
+  background-color: black;
+  position: relative;
+  width: 100%;
+  height: 0.5px;
+  top: 100px;
+  opacity: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.underline2 {
+  width: 45px;
+  background-color: white;
+  position: relative;
+  top: 90px;
+  left: 180px;
+}
+
+.underline2 p {
+  position: relative;
+  top: 0px;
+  left: 10px;
+  color: rgba(0, 0, 0, 0.418);
+  font-weight: 200;
+}
+
+.autre .google {
+  width: 399px;
+  height: 55px;
+  border: 1px solid rgba(0, 0, 0, 0.233) !important;
+  position: relative;
+  top: 100px;
+  opacity: 100%;
+  border-radius: 29px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.autre .google .gog {
+  width: 6%;
+  opacity: 100%;
+  position: relative;
+  left: 26%;
+  top: 30%;
+}
+
+.autre .google p {
+  font-weight: 700;
+  font-size: 14px;
+  position: relative;
+  bottom: 12%;
+  left: 35%;
+}
+
+.autre .facebook {
+  width: 399px;
+  height: 55px;
+  position: relative;
+  top: 120px;
+  border-radius: 29px;
+  background-color: #365492;
+}
+
+.autre .facebook .fb {
+  width: 6%;
+  opacity: 100%;
+  position: relative;
+  left: 24%;
+  top: 30%;
+}
+
+.autre .facebook p {
+  color: white;
+  position: relative;
+  left: 32%;
+  bottom: 8%;
+}
+
+.autre .apple {
+  width: 399px;
+  height: 55px;
+  position: relative;
+  top: 140px;
+  border-radius: 29px;
+  background-color: #000000;
+}
+
+.autre .apple .apl {
+  width: 5%;
+  position: relative;
+  left: 27%;
+  top: 27%;
+}
+
+.autre .apple p {
+  color: white;
+  position: relative;
+  left: 36%;
+  bottom: 10%;
+}
+/*# sourceMappingURL=style.css.map */
